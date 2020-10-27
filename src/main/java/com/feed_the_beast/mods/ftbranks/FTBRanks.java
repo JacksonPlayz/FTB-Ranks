@@ -122,7 +122,7 @@ public class FTBRanks
 
 		if (color != null)
 		{
-			text.setStyle(text.getStyle().setColor(Color.fromTextFormatting(color)));
+			text.setStyle(text.getStyle().setColor(Color.func_240744_a_(color)));
 		}
 
 		if (FTBRanksAPI.getPermissionValue(event.getPlayer(), "ftbranks.chat_text.bold").asBooleanOrFalse())
